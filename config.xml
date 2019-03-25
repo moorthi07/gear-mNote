@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://indo-mars/musicNotes" version="1.0.0" viewmodes="maximized">
+    <tizen:app-widget id="xISf6wDM9e.musicNotes.musicNotes" primary="true">
+        <tizen:widget-label>musicNotes</tizen:widget-label>
+        <tizen:widget-content src="widget/musicNotes/index.html">
+            <tizen:widget-size preview="widget/musicNotes/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="xISf6wDM9e.musicNotes" package="xISf6wDM9e" required_version="4.0"/>
+    <author>Moorthi PV</author>
+    <content src="widget\musicNotes\index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="icon.png"/>
+    <name>musicNotes</name>
+    <tizen:profile name="wearable"/>
+</widget>
